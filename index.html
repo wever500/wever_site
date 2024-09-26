@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site sobre massa corporal, IMC e dicas de saúde.">
+    <link rel="stylesheet" href="style.css">
+    <title>Massa Corporal</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Massa Corporal</h1>
+            <nav>
+                <ul>
+                    <li><a href="#calculator">Calculadora de IMC</a></li>
+                    <li><a href="#tips">Dicas de Saúde</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Bem-vindo ao site!</h2>
+            <p>Aqui você encontrará informações sobre massa corporal, saúde e bem-estar.</p>
+        </div>
+    </section>
+
+    <section id="calculator">
+        <div class="container">
+            <h2>Calculadora de IMC</h2>
+            <form id="imcForm">
+                <label for="weight">Peso (kg):</label>
+                <input type="number" id="weight" required>
+
+                <label for="height">Altura (m):</label>
+                <input type="number" step="0.01" id="height" required>
+                
+                <button type="submit">Calcular IMC</button>
+            </form>
+            <div id="imcResult"></div>
+        </div>
+    </section>
+
+    <section id="tips">
+        <div class="container">
+            <h2>Dicas de Saúde</h2>
+            <ul>
+                <li>Mantenha uma alimentação equilibrada.</li>
+                <li>Pratique exercícios regularmente.</li>
+                <li>Beba bastante água.</li>
+                <li>Consulte um profissional de saúde regularmente.</li>
+            </ul>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

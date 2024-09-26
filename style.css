@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("img/Academia-Smartfit-03.webp") no-repeat;
+    background-size: cover;
+    
+}
+
+header {
+    
+    color: #4CAF50;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    color: rgb(0, 0, 0);  
+    
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+section {
+    padding: 20px 0;
+}
+p{
+    color: rgb(0, 0, 0);
+}
+label{
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+li{
+    color:rgb(0, 0, 0);
+}
